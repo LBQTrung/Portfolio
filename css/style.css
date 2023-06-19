@@ -38,6 +38,10 @@ body {
     padding: 2rem 9%;
 }
 
+.header .sticky {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--text-color);
@@ -354,4 +358,25 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--second-bg-color);
+}
+
+/* breakpoints */
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%s;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
 }

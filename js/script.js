@@ -36,7 +36,7 @@ menuIcon.onclick = () => {
 }
 
 // Scroll reveal
-ScrollReveal({ 
+ScrollReveal({
     // reset: true,
     distance: '80px',
     duration: 2000,
@@ -61,7 +61,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {
 
 // Typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Data Engineer', 'AI Engineer'],
+    strings: ['Frontend Developer', 'Backend Developer', 'AI Engineer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
